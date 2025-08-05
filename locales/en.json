@@ -1,0 +1,11 @@
+{
+  "title": "QR Code Generator",
+  "generate_title": "Generate a QR Code",
+  "enter_url": "Enter URL:",
+  "format": "Select Format:",
+  "generate_btn": "Generate",
+  "decode_title": "Decode a QR Code",
+  "upload_file": "Upload QR Image:",
+  "decode_btn": "Decode",
+  "language": "Language"
+}

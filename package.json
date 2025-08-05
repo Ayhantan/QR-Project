@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "commander": "^14.0.0",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "i18n": "^0.15.1",
+    "inquirer": "^9.3.7",
+    "jimp": "^1.6.0",
+    "multer": "^2.0.1",
+    "open": "^10.2.0",
+    "qr-image": "^3.2.0",
+    "qrcode-reader": "^1.0.4"
+  },
+  "name": "qr-code-project",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ayhan tan acar",
+  "license": "ISC",
+  "description": "this is simple qr code project with node.js",
+  "keywords": []
+}

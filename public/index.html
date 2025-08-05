@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>QR App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1 id="title"></h1>
+
+  <h2 id="generate-title"></h2>
+  <form action="/generate" method="get" target="_blank">
+    <label id="enter-url-label" for="url"></label>
+    <input type="text" id="url" name="url" required />
+
+    <label id="format-label" for="format"></label>
+    <select name="format" id="format">
+      <option value="png">PNG</option>
+      <option value="svg">SVG</option>
+    </select>
+
+    <button type="submit" id="generate-btn"></button>
+  </form>
+
+  <h2 id="decode-title"></h2>
+  <form action="/decode" method="post" enctype="multipart/form-data">
+    <label id="upload-file-label" for="qrfile"></label>
+    <input type="file" id="qrfile" name="qrfile" accept="image/*" required />
+
+    <button type="submit" id="decode-btn"></button>
+  </form>
+
+  <div id="lang">
+    <span id="language-label"></span>
+    <a href="#" onclick="setLang('tr')">TR</a> | 
+    <a href="#" onclick="setLang('en')">EN</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

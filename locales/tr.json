@@ -1,0 +1,12 @@
+{
+  "title": "QR Kod Oluşturucu",
+  "generate_title": "QR Kod Oluştur",
+  "enter_url": "URL Girin:",
+  "format": "Format Seçin:",
+  "generate_btn": "Oluştur",
+  "decode_title": "QR Kod Çöz",
+  "upload_file": "QR Görsel Yükle:",
+  "decode_btn": "Çöz",
+  "language": "Dil"
+}
+
